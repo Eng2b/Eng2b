@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320" role="img" aria-labelledby="t d">
+<title id="t">Database design project — illustration</title>
+<desc id="d">Illustration: a wide table with repeated values is normalized into students, courses and enrollments tables joined by one-to-many relationships.</desc>
+<defs><linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#0A0E1F"/><stop offset="1" stop-color="#121741"/>
+</linearGradient>
+<radialGradient id="pglowL" cx=".85" cy=".1" r=".6">
+  <stop offset="0" stop-color="#B7A5FF" stop-opacity=".22"/><stop offset="1" stop-color="#B7A5FF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="pglowB" cx=".1" cy="1" r=".6">
+  <stop offset="0" stop-color="#4F7BFF" stop-opacity=".2"/><stop offset="1" stop-color="#4F7BFF" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="pedge" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#B7A5FF" stop-opacity="0"/>
+  <stop offset=".5" stop-color="#B7A5FF" stop-opacity=".55"/>
+  <stop offset="1" stop-color="#B7A5FF" stop-opacity="0"/>
+</linearGradient>
+<pattern id="pdots" width="24" height="24" patternUnits="userSpaceOnUse">
+  <circle cx="12" cy="12" r="1" fill="#202860"/>
+</pattern></defs><style>
+.sans{font-family:'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Ubuntu,Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.b{font-weight:700} .sb{font-weight:600}
+.fb{transform-box:fill-box;transform-origin:center}
+
+@keyframes ka0{0%{opacity:1} 32%{opacity:1} 40%{opacity:0} 96%{opacity:0} 100%{opacity:1}}
+.a0{animation:ka0 10.0s cubic-bezier(.5,0,.25,1) 0.0s infinite both}
+@keyframes ka1{0%{opacity:0} 40%{opacity:0} 48%{opacity:1} 94%{opacity:1} 99%{opacity:0} 100%{opacity:0}}
+.a1{animation:ka1 10.0s cubic-bezier(.5,0,.25,1) 0.0s infinite both}
+@keyframes ka2{0%{stroke-dashoffset:110.0} 48%{stroke-dashoffset:110.0} 58%{stroke-dashoffset:0} 100%{stroke-dashoffset:0}}
+.a2{animation:ka2 10.0s cubic-bezier(.5,0,.25,1) 0.0s infinite both}
+@keyframes ka3{0%{stroke-dashoffset:130.7} 48%{stroke-dashoffset:130.7} 58%{stroke-dashoffset:0} 100%{stroke-dashoffset:0}}
+.a3{animation:ka3 10.0s cubic-bezier(.5,0,.25,1) 0.0s infinite both}
+/* Respect the viewer's OS setting: every element falls back to its final state. */
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style><rect width="600" height="320" rx="20" fill="url(#pbg)"/>
+<rect width="600" height="320" rx="20" fill="url(#pdots)" opacity=".7"/>
+<rect width="600" height="320" rx="20" fill="url(#pglowL)"/>
+<rect width="600" height="320" rx="20" fill="url(#pglowB)"/>
+<rect x=".5" y=".5" width="599" height="319" rx="20" fill="none" stroke="#2B3470"/>
+<rect x="20" y=".4" width="560" height="1.2" fill="url(#pedge)"/><text x="26" y="35" class="mono" font-size="13" fill="#5D6499">~/projects/</text><text x="112.9" y="35" class="mono" font-size="13" fill="#BFC3EA">university-db-design</text><rect x="480" y="18" width="96" height="24" rx="12" fill="none" stroke="#B7A5FF" stroke-dasharray="4 3"/><text x="528" y="34" class="mono" font-size="12" fill="#B7A5FF" text-anchor="middle">blueprint</text><line x1="20" y1="56" x2="580" y2="56" stroke="#2B3470"/><g opacity="0" class="a0"><rect x="36" y="84" width="528" height="160" rx="10" fill="#151B42" stroke="#2B3470"/><text x="52" y="106" class="mono b" font-size="13" fill="#B7A5FF">enrollment_raw</text><text x="52" y="132" class="mono" font-size="11" fill="#5D6499">student</text><text x="180" y="132" class="mono" font-size="11" fill="#5D6499">course</text><text x="308" y="132" class="mono" font-size="11" fill="#5D6499">instructor</text><text x="436" y="132" class="mono" font-size="11" fill="#5D6499">room</text><text x="52" y="160" class="sans" font-size="13" fill="#BFC3EA">Lina H.</text><text x="180" y="160" class="sans" font-size="13" fill="#BFC3EA">Databases</text><text x="308" y="160" class="sans" font-size="13" fill="#BFC3EA">Dr. Amal</text><text x="436" y="160" class="sans" font-size="13" fill="#BFC3EA">B12</text><text x="52" y="188" class="sans" font-size="13" fill="#FF74C0">Lina H.</text><text x="180" y="188" class="sans" font-size="13" fill="#BFC3EA">Web Dev</text><text x="308" y="188" class="sans" font-size="13" fill="#BFC3EA">Dr. Ziad</text><text x="436" y="188" class="sans" font-size="13" fill="#BFC3EA">A03</text><text x="52" y="216" class="sans" font-size="13" fill="#BFC3EA">Omar K.</text><text x="180" y="216" class="sans" font-size="13" fill="#FF74C0">Databases</text><text x="308" y="216" class="sans" font-size="13" fill="#FF74C0">Dr. Amal</text><text x="436" y="216" class="sans" font-size="13" fill="#FF74C0">B12</text><text x="300" y="272" class="mono" font-size="12" fill="#FF74C0" text-anchor="middle">repeated facts → update anomalies</text></g><g class="a1"><rect x="36" y="76" width="150" height="102" rx="9" fill="#151B42" stroke="#2B3470"/><rect x="36" y="76" width="150" height="28" rx="9" fill="#1B2253"/><text x="48" y="95" class="mono b" font-size="12.5" fill="#B7A5FF">students</text><text x="48" y="124" class="mono" font-size="12" fill="#BFC3EA">id</text><text x="176" y="124" class="mono b" font-size="10" fill="#5BE1F0" text-anchor="end">PK</text><text x="48" y="146" class="mono" font-size="12" fill="#BFC3EA">name</text><text x="48" y="168" class="mono" font-size="12" fill="#BFC3EA">email</text><rect x="414" y="76" width="150" height="102" rx="9" fill="#151B42" stroke="#2B3470"/><rect x="414" y="76" width="150" height="28" rx="9" fill="#1B2253"/><text x="426" y="95" class="mono b" font-size="12.5" fill="#B7A5FF">courses</text><text x="426" y="124" class="mono" font-size="12" fill="#BFC3EA">id</text><text x="554" y="124" class="mono b" font-size="10" fill="#5BE1F0" text-anchor="end">PK</text><text x="426" y="146" class="mono" font-size="12" fill="#BFC3EA">title</text><text x="426" y="168" class="mono" font-size="12" fill="#BFC3EA">instructor</text><rect x="225" y="170" width="150" height="102" rx="9" fill="#151B42" stroke="#2B3470"/><rect x="225" y="170" width="150" height="28" rx="9" fill="#1B2253"/><text x="237" y="189" class="mono b" font-size="12.5" fill="#B7A5FF">enrollments</text><text x="237" y="218" class="mono" font-size="12" fill="#BFC3EA">student_id</text><text x="365" y="218" class="mono b" font-size="10" fill="#FF74C0" text-anchor="end">FK</text><text x="237" y="240" class="mono" font-size="12" fill="#BFC3EA">course_id</text><text x="365" y="240" class="mono b" font-size="10" fill="#FF74C0" text-anchor="end">FK</text><text x="237" y="262" class="mono" font-size="12" fill="#BFC3EA">term</text><path d="M186 130 C206 130 205 228 225 228" fill="none" stroke="#6B74B3" stroke-width="1.6" stroke-dasharray="110.0" class="a2"/><path d="M414 130 C394 130 395 250 375 250" fill="none" stroke="#6B74B3" stroke-width="1.6" stroke-dasharray="130.7" class="a3"/><line x1="194" y1="123" x2="194" y2="137" stroke="#6B74B3" stroke-width="1.6"/><line x1="213" y1="228" x2="225" y2="221" stroke="#6B74B3" stroke-width="1.6"/><line x1="213" y1="228" x2="225" y2="228" stroke="#6B74B3" stroke-width="1.6"/><line x1="213" y1="228" x2="225" y2="235" stroke="#6B74B3" stroke-width="1.6"/><line x1="406" y1="137" x2="406" y2="123" stroke="#6B74B3" stroke-width="1.6"/><line x1="387" y1="250" x2="375" y2="257" stroke="#6B74B3" stroke-width="1.6"/><line x1="387" y1="250" x2="375" y2="250" stroke="#6B74B3" stroke-width="1.6"/><line x1="387" y1="250" x2="375" y2="243" stroke="#6B74B3" stroke-width="1.6"/><text x="470" y="276" class="mono" font-size="12" fill="#5BE1F0" text-anchor="middle">3NF · one fact, one place</text></g></svg>

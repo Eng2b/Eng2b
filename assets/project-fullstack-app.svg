@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320" role="img" aria-labelledby="t d">
+<title id="t">Full-stack web application — illustration</title>
+<desc id="d">Illustration: UI, API and database layers with a request travelling down and a response travelling up, and a JWT token being verified.</desc>
+<defs><linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#0A0E1F"/><stop offset="1" stop-color="#121741"/>
+</linearGradient>
+<radialGradient id="pglowL" cx=".85" cy=".1" r=".6">
+  <stop offset="0" stop-color="#B7A5FF" stop-opacity=".22"/><stop offset="1" stop-color="#B7A5FF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="pglowB" cx=".1" cy="1" r=".6">
+  <stop offset="0" stop-color="#4F7BFF" stop-opacity=".2"/><stop offset="1" stop-color="#4F7BFF" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="pedge" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#B7A5FF" stop-opacity="0"/>
+  <stop offset=".5" stop-color="#B7A5FF" stop-opacity=".55"/>
+  <stop offset="1" stop-color="#B7A5FF" stop-opacity="0"/>
+</linearGradient>
+<pattern id="pdots" width="24" height="24" patternUnits="userSpaceOnUse">
+  <circle cx="12" cy="12" r="1" fill="#202860"/>
+</pattern></defs><style>
+.sans{font-family:'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Ubuntu,Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.b{font-weight:700} .sb{font-weight:600}
+.fb{transform-box:fill-box;transform-origin:center}
+
+@keyframes ka0{0%{opacity:0} 6%{opacity:0} 8%{opacity:1} 16%{opacity:1} 18%{opacity:0} 100%{opacity:0}}
+.a0{animation:ka0 8.0s cubic-bezier(.5,0,.25,1) 0.0s infinite both}
+@keyframes ka1{0%{opacity:0} 80%{opacity:0} 82%{opacity:1} 90%{opacity:1} 92%{opacity:0} 100%{opacity:0}}
+.a1{animation:ka1 8.0s cubic-bezier(.5,0,.25,1) 0.0s infinite both}
+@keyframes ka2{0%{opacity:0;transform:translateY(14px)} 100%{opacity:1;transform:translateY(0)}}
+.a2{animation:ka2 0.9s cubic-bezier(.2,.7,.2,1) 0.2s 1 both}
+@keyframes ka3{0%{opacity:0} 18%{opacity:0} 20%{opacity:1} 28%{opacity:1} 30%{opacity:0} 100%{opacity:0}}
+.a3{animation:ka3 8.0s cubic-bezier(.5,0,.25,1) 0.0s infinite both}
+@keyframes ka4{0%{opacity:0} 68%{opacity:0} 70%{opacity:1} 78%{opacity:1} 80%{opacity:0} 100%{opacity:0}}
+.a4{animation:ka4 8.0s cubic-bezier(.5,0,.25,1) 0.0s infinite both}
+@keyframes ka5{0%{opacity:0;transform:translateY(14px)} 100%{opacity:1;transform:translateY(0)}}
+.a5{animation:ka5 0.9s cubic-bezier(.2,.7,.2,1) 0.35s 1 both}
+@keyframes ka6{0%{opacity:0} 30%{opacity:0} 32%{opacity:1} 40%{opacity:1} 42%{opacity:0} 100%{opacity:0}}
+.a6{animation:ka6 8.0s cubic-bezier(.5,0,.25,1) 0.0s infinite both}
+@keyframes ka7{0%{opacity:0} 56%{opacity:0} 58%{opacity:1} 66%{opacity:1} 68%{opacity:0} 100%{opacity:0}}
+.a7{animation:ka7 8.0s cubic-bezier(.5,0,.25,1) 0.0s infinite both}
+@keyframes ka8{0%{opacity:0;transform:translateY(14px)} 100%{opacity:1;transform:translateY(0)}}
+.a8{animation:ka8 0.9s cubic-bezier(.2,.7,.2,1) 0.5s 1 both}
+@keyframes ka9{0%{stroke-dashoffset:30.0} 4%{stroke-dashoffset:30.0} 40%{stroke-dashoffset:-202.0} 100%{stroke-dashoffset:-202.0}}
+.a9{animation:ka9 8.0s cubic-bezier(.5,0,.25,1) 0.0s infinite both}
+@keyframes ka10{0%{stroke-dashoffset:30.0} 54%{stroke-dashoffset:30.0} 90%{stroke-dashoffset:-202.0} 100%{stroke-dashoffset:-202.0}}
+.a10{animation:ka10 8.0s cubic-bezier(.5,0,.25,1) 0.0s infinite both}
+@keyframes ka11{0%{opacity:0} 18%{opacity:0} 22%{opacity:1} 94%{opacity:1} 98%{opacity:0} 100%{opacity:0}}
+.a11{animation:ka11 8.0s cubic-bezier(.5,0,.25,1) 0.0s infinite both}
+@keyframes ka12{0%{transform:translateY(-5px)} 18%{transform:translateY(-5px)} 22%{transform:translateY(0)} 94%{transform:translateY(0)} 98%{transform:translateY(-5px)} 100%{transform:translateY(-5px)}}
+.a12{animation:ka12 8.0s cubic-bezier(.5,0,.25,1) 0.0s infinite both}
+@keyframes ka13{0%{opacity:0;transform:translateY(14px)} 100%{opacity:1;transform:translateY(0)}}
+.a13{animation:ka13 0.9s cubic-bezier(.2,.7,.2,1) 0.6s 1 both}
+/* Respect the viewer's OS setting: every element falls back to its final state. */
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style><rect width="600" height="320" rx="20" fill="url(#pbg)"/>
+<rect width="600" height="320" rx="20" fill="url(#pdots)" opacity=".7"/>
+<rect width="600" height="320" rx="20" fill="url(#pglowL)"/>
+<rect width="600" height="320" rx="20" fill="url(#pglowB)"/>
+<rect x=".5" y=".5" width="599" height="319" rx="20" fill="none" stroke="#2B3470"/>
+<rect x="20" y=".4" width="560" height="1.2" fill="url(#pedge)"/><text x="26" y="35" class="mono" font-size="13" fill="#5D6499">~/projects/</text><text x="112.9" y="35" class="mono" font-size="13" fill="#BFC3EA">fullstack-web-app</text><rect x="480" y="18" width="96" height="24" rx="12" fill="none" stroke="#B7A5FF" stroke-dasharray="4 3"/><text x="528" y="34" class="mono" font-size="12" fill="#B7A5FF" text-anchor="middle">blueprint</text><line x1="20" y1="56" x2="580" y2="56" stroke="#2B3470"/><g class="a2"><rect x="40" y="80" width="300" height="56" rx="12" fill="#151B42" stroke="#2B3470"/><rect x="40" y="80" width="300" height="56" rx="12" fill="none" stroke="#5BE1F0" opacity="0" class="a0"/><rect x="40" y="80" width="300" height="56" rx="12" fill="none" stroke="#FF74C0" opacity="0" class="a1"/><rect x="56" y="96" width="44" height="24" rx="6" fill="#5BE1F0" fill-opacity=".16" stroke="#5BE1F0"/><text x="78" y="113" class="mono b" font-size="12" fill="#5BE1F0" text-anchor="middle">UI</text><text x="114" y="113" class="sans" font-size="14" fill="#BFC3EA">HTML · CSS · JavaScript</text></g><g class="a5"><rect x="48" y="152" width="300" height="56" rx="12" fill="#151B42" stroke="#2B3470"/><rect x="48" y="152" width="300" height="56" rx="12" fill="none" stroke="#5BE1F0" opacity="0" class="a3"/><rect x="48" y="152" width="300" height="56" rx="12" fill="none" stroke="#FF74C0" opacity="0" class="a4"/><rect x="64" y="168" width="44" height="24" rx="6" fill="#B7A5FF" fill-opacity=".16" stroke="#B7A5FF"/><text x="86" y="185" class="mono b" font-size="12" fill="#B7A5FF" text-anchor="middle">API</text><text x="122" y="185" class="sans" font-size="14" fill="#BFC3EA">FastAPI · REST · JWT</text></g><g class="a8"><rect x="56" y="224" width="300" height="56" rx="12" fill="#151B42" stroke="#2B3470"/><rect x="56" y="224" width="300" height="56" rx="12" fill="none" stroke="#5BE1F0" opacity="0" class="a6"/><rect x="56" y="224" width="300" height="56" rx="12" fill="none" stroke="#FF74C0" opacity="0" class="a7"/><rect x="72" y="240" width="44" height="24" rx="6" fill="#FF74C0" fill-opacity=".16" stroke="#FF74C0"/><text x="94" y="257" class="mono b" font-size="12" fill="#FF74C0" text-anchor="middle">DB</text><text x="130" y="257" class="sans" font-size="14" fill="#BFC3EA">PostgreSQL</text></g><path d="M370 86 L370 276" fill="none" stroke="#2B3470" stroke-width="1.5" stroke-opacity="1.0" stroke-linecap="round"/><path d="M384 276 L384 86" fill="none" stroke="#2B3470" stroke-width="1.5" stroke-opacity="1.0" stroke-linecap="round"/><path d="M370 86 L370 276" class="a9" fill="none" stroke="#5BE1F0" stroke-opacity=".28" stroke-width="12.8" stroke-linecap="round" stroke-dasharray="18 242.0" stroke-dashoffset="30.0"/><path d="M370 86 L370 276" class="a9" fill="none" stroke="#5BE1F0" stroke-width="4" stroke-linecap="round" stroke-dasharray="18 242.0" stroke-dashoffset="30.0"/><path d="M384 276 L384 86" class="a10" fill="none" stroke="#FF74C0" stroke-opacity=".28" stroke-width="12.8" stroke-linecap="round" stroke-dasharray="18 242.0" stroke-dashoffset="30.0"/><path d="M384 276 L384 86" class="a10" fill="none" stroke="#FF74C0" stroke-width="4" stroke-linecap="round" stroke-dasharray="18 242.0" stroke-dashoffset="30.0"/><g class="a13"><rect x="408" y="80" width="164" height="200" rx="12" fill="#151B42" stroke="#2B3470"/><g class="a12"><path d="M478 112 v-10 a12 12 0 0 1 24 0 v10" fill="none" stroke="#B7A5FF" stroke-width="3"/></g><rect x="470" y="110" width="40" height="30" rx="6" fill="#1B2253" stroke="#B7A5FF" stroke-width="2"/><circle cx="490" cy="124" r="3.5" fill="#B7A5FF"/><g class="a11"><text x="490" y="166" class="mono" font-size="11.5" fill="#5BE1F0" text-anchor="middle">✓ verified</text></g><text x="422" y="198" class="mono" font-size="11.5" fill="#FF74C0">eyJhbGciOiJIUzI1</text><text x="422" y="218" class="mono" font-size="11.5" fill="#B7A5FF">.eyJzdWIiOiI0Mn0</text><text x="422" y="238" class="mono" font-size="11.5" fill="#5BE1F0">.SflKxwRJSMeKKF2</text><text x="490" y="264" class="mono" font-size="11" fill="#5D6499" text-anchor="middle">Bearer token</text></g></svg>

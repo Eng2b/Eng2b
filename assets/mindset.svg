@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" role="img" aria-labelledby="t d">
+<title id="t">Engineering mindset as a commit history</title>
+<desc id="d">Engineering principles shown as a git log: understand: Understand the problem before writing code. Who uses it, what they need, and what can go wrong. model: Design the data before the features. Entities, relationships and constraints come first. build: Write code someone else can read. Small functions, clear names, honest comments. verify: Validate assumptions. Handle errors. Check inputs, test the edges, fail with clear messages. iterate: Ship something practical, then improve it. Feedback over perfection.</desc>
+<defs><linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#0A0E1F"/><stop offset="1" stop-color="#121741"/>
+</linearGradient>
+<radialGradient id="pglowL" cx=".85" cy=".1" r=".6">
+  <stop offset="0" stop-color="#B7A5FF" stop-opacity=".22"/><stop offset="1" stop-color="#B7A5FF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="pglowB" cx=".1" cy="1" r=".6">
+  <stop offset="0" stop-color="#4F7BFF" stop-opacity=".2"/><stop offset="1" stop-color="#4F7BFF" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="pedge" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#B7A5FF" stop-opacity="0"/>
+  <stop offset=".5" stop-color="#B7A5FF" stop-opacity=".55"/>
+  <stop offset="1" stop-color="#B7A5FF" stop-opacity="0"/>
+</linearGradient>
+<pattern id="pdots" width="24" height="24" patternUnits="userSpaceOnUse">
+  <circle cx="12" cy="12" r="1" fill="#202860"/>
+</pattern></defs><style>
+.sans{font-family:'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Ubuntu,Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.b{font-weight:700} .sb{font-weight:600}
+.fb{transform-box:fill-box;transform-origin:center}
+
+@keyframes ka0{0%{stroke-dashoffset:460.0} 100%{stroke-dashoffset:0}}
+.a0{animation:ka0 1.6s cubic-bezier(.2,.7,.2,1) 0.2s 1 both}
+@keyframes ka1{0%{stroke-dashoffset:220.9} 100%{stroke-dashoffset:0}}
+.a1{animation:ka1 1.2s cubic-bezier(.2,.7,.2,1) 1.2s 1 both}
+@keyframes ka2{0%{opacity:0} 100%{opacity:1}}
+.a2{animation:ka2 0.8s cubic-bezier(.2,.7,.2,1) 2s 1 both}
+@keyframes ka3{0%{opacity:0;transform:scale(1)} 7.84783%{opacity:0;transform:scale(1)} 8.34783%{opacity:.8;transform:scale(1)} 16.3478%{opacity:0;transform:scale(2.6)} 100%{opacity:0;transform:scale(2.6)}}
+.a3{animation:ka3 10.0s ease-out 2.6s infinite both}
+@keyframes ka4{0%{opacity:0;transform:translateY(10px)} 100%{opacity:1;transform:translateY(0)}}
+.a4{animation:ka4 0.8s cubic-bezier(.2,.7,.2,1) 0.4s 1 both}
+@keyframes ka5{0%{opacity:0;transform:scale(1)} 23.6739%{opacity:0;transform:scale(1)} 24.1739%{opacity:.8;transform:scale(1)} 32.1739%{opacity:0;transform:scale(2.6)} 100%{opacity:0;transform:scale(2.6)}}
+.a5{animation:ka5 10.0s ease-out 2.6s infinite both}
+@keyframes ka6{0%{opacity:0;transform:translateY(10px)} 100%{opacity:1;transform:translateY(0)}}
+.a6{animation:ka6 0.8s cubic-bezier(.2,.7,.2,1) 0.62s 1 both}
+@keyframes ka7{0%{opacity:0;transform:scale(1)} 39.5%{opacity:0;transform:scale(1)} 40%{opacity:.8;transform:scale(1)} 48%{opacity:0;transform:scale(2.6)} 100%{opacity:0;transform:scale(2.6)}}
+.a7{animation:ka7 10.0s ease-out 2.6s infinite both}
+@keyframes ka8{0%{opacity:0;transform:translateY(10px)} 100%{opacity:1;transform:translateY(0)}}
+.a8{animation:ka8 0.8s cubic-bezier(.2,.7,.2,1) 0.8400000000000001s 1 both}
+@keyframes ka9{0%{opacity:0;transform:scale(1)} 55.3261%{opacity:0;transform:scale(1)} 55.8261%{opacity:.8;transform:scale(1)} 63.8261%{opacity:0;transform:scale(2.6)} 100%{opacity:0;transform:scale(2.6)}}
+.a9{animation:ka9 10.0s ease-out 2.6s infinite both}
+@keyframes ka10{0%{opacity:0;transform:translateY(10px)} 100%{opacity:1;transform:translateY(0)}}
+.a10{animation:ka10 0.8s cubic-bezier(.2,.7,.2,1) 1.06s 1 both}
+@keyframes ka11{0%{opacity:0;transform:scale(1)} 71.1522%{opacity:0;transform:scale(1)} 71.6522%{opacity:.8;transform:scale(1)} 79.6522%{opacity:0;transform:scale(2.6)} 100%{opacity:0;transform:scale(2.6)}}
+.a11{animation:ka11 10.0s ease-out 2.6s infinite both}
+@keyframes ka12{0%{opacity:0;transform:translateY(10px)} 100%{opacity:1;transform:translateY(0)}}
+.a12{animation:ka12 0.8s cubic-bezier(.2,.7,.2,1) 1.28s 1 both}
+@keyframes ka13{0%{stroke-dashoffset:29.0} 5%{stroke-dashoffset:29.0} 75%{stroke-dashoffset:-469.0} 100%{stroke-dashoffset:-469.0}}
+.a13{animation:ka13 10.0s linear 2.6s infinite both}
+/* Respect the viewer's OS setting: every element falls back to its final state. */
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style><rect width="900" height="640" rx="26" fill="url(#pbg)"/>
+<rect width="900" height="640" rx="26" fill="url(#pdots)" opacity=".7"/>
+<rect width="900" height="640" rx="26" fill="url(#pglowL)"/>
+<rect width="900" height="640" rx="26" fill="url(#pglowB)"/>
+<rect x=".5" y=".5" width="899" height="639" rx="26" fill="none" stroke="#2B3470"/>
+<rect x="26" y=".4" width="848" height="1.2" fill="url(#pedge)"/><text x="40" y="56" class="mono" font-size="15" fill="#5D6499">$ git log --reverse --oneline mindset</text><path d="M72 106 L72 566" stroke="#5BE1F0" stroke-opacity=".55" stroke-width="2.5" fill="none" stroke-dasharray="460.0" class="a0"/><path d="M72 232 C72 272 102 272 102 326 L102 346 C102 400 72 400 72 440" stroke="#B7A5FF" stroke-opacity=".6" stroke-width="2" fill="none" stroke-dasharray="220.9" class="a1"/><circle cx="102" cy="336" r="5" fill="#0A0E1F" stroke="#B7A5FF" stroke-width="2" class="a2"/><g class="a4"><circle cx="72" cy="128" r="9" fill="none" stroke="#5BE1F0" stroke-width="2" opacity="0" class="a3 fb"/><circle cx="72" cy="128" r="8" fill="#0A0E1F" stroke="#5BE1F0" stroke-width="2.5"/><text x="136" y="133" class="mono" font-size="14.5" xml:space="preserve"><tspan fill="#B7A5FF">c0ffee1</tspan><tspan fill="#5BE1F0">  understand:</tspan></text><text x="136" y="163" class="sans b" font-size="23" fill="#ECEBFF">Understand the problem before writing code.</text><text x="136" y="188" class="sans" font-size="16" fill="#8990C0">Who uses it, what they need, and what can go wrong.</text></g><g class="a6"><circle cx="72" cy="232" r="9" fill="none" stroke="#5BE1F0" stroke-width="2" opacity="0" class="a5 fb"/><circle cx="72" cy="232" r="8" fill="#0A0E1F" stroke="#5BE1F0" stroke-width="2.5"/><text x="136" y="237" class="mono" font-size="14.5" xml:space="preserve"><tspan fill="#B7A5FF">da7aba5</tspan><tspan fill="#5BE1F0">  model:</tspan></text><text x="136" y="267" class="sans b" font-size="23" fill="#ECEBFF">Design the data before the features.</text><text x="136" y="292" class="sans" font-size="16" fill="#8990C0">Entities, relationships and constraints come first.</text></g><g class="a8"><circle cx="72" cy="336" r="9" fill="none" stroke="#5BE1F0" stroke-width="2" opacity="0" class="a7 fb"/><circle cx="72" cy="336" r="8" fill="#0A0E1F" stroke="#5BE1F0" stroke-width="2.5"/><text x="136" y="341" class="mono" font-size="14.5" xml:space="preserve"><tspan fill="#B7A5FF">5ca1ab1</tspan><tspan fill="#5BE1F0">  build:</tspan></text><text x="136" y="371" class="sans b" font-size="23" fill="#ECEBFF">Write code someone else can read.</text><text x="136" y="396" class="sans" font-size="16" fill="#8990C0">Small functions, clear names, honest comments.</text></g><g class="a10"><circle cx="72" cy="440" r="9" fill="none" stroke="#5BE1F0" stroke-width="2" opacity="0" class="a9 fb"/><circle cx="72" cy="440" r="8" fill="#0A0E1F" stroke="#5BE1F0" stroke-width="2.5"/><text x="136" y="445" class="mono" font-size="14.5" xml:space="preserve"><tspan fill="#B7A5FF">7e57ed0</tspan><tspan fill="#5BE1F0">  verify:</tspan></text><text x="136" y="475" class="sans b" font-size="23" fill="#ECEBFF">Validate assumptions. Handle errors.</text><text x="136" y="500" class="sans" font-size="16" fill="#8990C0">Check inputs, test the edges, fail with clear messages.</text></g><g class="a12"><circle cx="72" cy="544" r="9" fill="none" stroke="#5BE1F0" stroke-width="2" opacity="0" class="a11 fb"/><circle cx="72" cy="544" r="8" fill="#0A0E1F" stroke="#5BE1F0" stroke-width="2.5"/><text x="136" y="549" class="mono" font-size="14.5" xml:space="preserve"><tspan fill="#B7A5FF">feedbac</tspan><tspan fill="#5BE1F0">  iterate:</tspan><tspan fill="#FF74C0">  (HEAD → main)</tspan></text><text x="136" y="579" class="sans b" font-size="23" fill="#ECEBFF">Ship something practical, then improve it.</text><text x="136" y="604" class="sans" font-size="16" fill="#8990C0">Feedback over perfection.</text></g><path d="M72 106 L72 566" fill="none" stroke="#5BE1F0" stroke-opacity=".3" stroke-width="10" stroke-linecap="round" stroke-dasharray="20 520.0" stroke-dashoffset="29" class="a13"/><path d="M72 106 L72 566" fill="none" stroke="#5BE1F0" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="20 520.0" stroke-dashoffset="29" class="a13"/></svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
+<title id="t">Let's build something</title>
+<desc id="d">Closing card. The S-route mark: a packet travels from a screen down to a database and back. Text: HTTP/1.1 201 Created. Let's build something that works — and feels right. Sarai Soliman.</desc>
+<defs><linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#0A0E1F"/><stop offset="1" stop-color="#121741"/>
+</linearGradient>
+<radialGradient id="pglowL" cx=".85" cy=".1" r=".6">
+  <stop offset="0" stop-color="#B7A5FF" stop-opacity=".22"/><stop offset="1" stop-color="#B7A5FF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="pglowB" cx=".1" cy="1" r=".6">
+  <stop offset="0" stop-color="#4F7BFF" stop-opacity=".2"/><stop offset="1" stop-color="#4F7BFF" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="pedge" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#B7A5FF" stop-opacity="0"/>
+  <stop offset=".5" stop-color="#B7A5FF" stop-opacity=".55"/>
+  <stop offset="1" stop-color="#B7A5FF" stop-opacity="0"/>
+</linearGradient>
+<pattern id="pdots" width="24" height="24" patternUnits="userSpaceOnUse">
+  <circle cx="12" cy="12" r="1" fill="#202860"/>
+</pattern>
+<linearGradient id="tagGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5BE1F0"/><stop offset="1" stop-color="#B7A5FF"/></linearGradient>
+</defs><style>
+.sans{font-family:'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Ubuntu,Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.b{font-weight:700} .sb{font-weight:600}
+.fb{transform-box:fill-box;transform-origin:center}
+
+@keyframes ka0{0%{stroke-dashoffset:423.9} 100%{stroke-dashoffset:0}}
+.a0{animation:ka0 1.8s cubic-bezier(.2,.7,.2,1) 0.2s 1 both}
+@keyframes ka1{0%{stroke-dashoffset:52.0} 4%{stroke-dashoffset:52.0} 42%{stroke-dashoffset:-441.9} 100%{stroke-dashoffset:-441.9}}
+.a1{animation:ka1 8.0s cubic-bezier(.5,0,.25,1) 2.2s infinite both}
+@keyframes ka2{0%{stroke-dashoffset:52.0} 54%{stroke-dashoffset:52.0} 92%{stroke-dashoffset:-441.9} 100%{stroke-dashoffset:-441.9}}
+.a2{animation:ka2 8.0s cubic-bezier(.5,0,.25,1) 2.2s infinite both}
+@keyframes ka3{0%{opacity:1} 49%{opacity:1} 50%{opacity:0} 100%{opacity:0}}
+.a3{animation:ka3 1.1s linear 0.0s infinite both}
+@keyframes ka4{0%{opacity:0;transform:translateY(14px)} 100%{opacity:1;transform:translateY(0)}}
+.a4{animation:ka4 0.9s cubic-bezier(.2,.7,.2,1) 0.6s 1 both}
+@keyframes ka5{0%{opacity:0;transform:translateY(14px)} 100%{opacity:1;transform:translateY(0)}}
+.a5{animation:ka5 0.9s cubic-bezier(.2,.7,.2,1) 0.85s 1 both}
+@keyframes ka6{0%{opacity:0;transform:translateY(14px)} 100%{opacity:1;transform:translateY(0)}}
+.a6{animation:ka6 0.9s cubic-bezier(.2,.7,.2,1) 1s 1 both}
+@keyframes ka7{0%{opacity:0;transform:translateY(14px)} 100%{opacity:1;transform:translateY(0)}}
+.a7{animation:ka7 0.9s cubic-bezier(.2,.7,.2,1) 1.2s 1 both}
+@keyframes ka8{0%{opacity:0;transform:translateY(0)} 30%{opacity:.7} 100%{opacity:0;transform:translateY(-26px)}}
+.a8{animation:ka8 9s linear 0.0s infinite both}
+@keyframes ka9{0%{opacity:0;transform:translateY(0)} 30%{opacity:.7} 100%{opacity:0;transform:translateY(-26px)}}
+.a9{animation:ka9 11s linear 9.7s infinite both}
+@keyframes ka10{0%{opacity:0;transform:translateY(0)} 30%{opacity:.7} 100%{opacity:0;transform:translateY(-26px)}}
+.a10{animation:ka10 10s linear 7.4s infinite both}
+@keyframes ka11{0%{opacity:0;transform:translateY(0)} 30%{opacity:.7} 100%{opacity:0;transform:translateY(-26px)}}
+.a11{animation:ka11 12s linear 8.1s infinite both}
+/* Respect the viewer's OS setting: every element falls back to its final state. */
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style><rect width="1200" height="340" rx="26" fill="url(#pbg)"/>
+<rect width="1200" height="340" rx="26" fill="url(#pdots)" opacity=".7"/>
+<rect width="1200" height="340" rx="26" fill="url(#pglowL)"/>
+<rect width="1200" height="340" rx="26" fill="url(#pglowB)"/>
+<rect x=".5" y=".5" width="1199" height="339" rx="26" fill="none" stroke="#2B3470"/>
+<rect x="26" y=".4" width="1148" height="1.2" fill="url(#pedge)"/><circle cx="980" cy="80" r="1.4" fill="#B7A5FF" opacity=".35" class="a8"/><circle cx="1120" cy="220" r="1.2" fill="#B7A5FF" opacity=".35" class="a9"/><circle cx="340" cy="300" r="1.3" fill="#B7A5FF" opacity=".35" class="a10"/><circle cx="760" cy="40" r="1.1" fill="#B7A5FF" opacity=".35" class="a11"/><path d="M279.6 88.0 C246.0 58.6 170.4 58.6 170.4 113.2 C170.4 163.6 271.2 155.2 271.2 209.8 C271.2 260.2 187.2 264.4 162.0 239.2" fill="none" stroke="#B7A5FF" stroke-width="5" stroke-linecap="round" stroke-dasharray="423.9" class="a0"/><rect x="267.0" y="58.6" width="50.4" height="37.8" rx="8.4" fill="#0A0E1F" stroke="#5BE1F0" stroke-width="3.0"/><path d="M128.4 224.5 V253.9 Q153.6 274.1 178.8 253.9 V224.5" fill="#0A0E1F" stroke="#FF74C0" stroke-width="3.0"/><ellipse cx="153.6" cy="224.5" rx="25.2" ry="10.1" fill="#0A0E1F" stroke="#FF74C0" stroke-width="3.0"/><path d="M279.6 88.0 C246.0 58.6 170.4 58.6 170.4 113.2 C170.4 163.6 271.2 155.2 271.2 209.8 C271.2 260.2 187.2 264.4 162.0 239.2" class="a1" fill="none" stroke="#5BE1F0" stroke-opacity=".28" stroke-width="19.200000000000003" stroke-linecap="round" stroke-dasharray="34 503.9" stroke-dashoffset="52.0"/><path d="M279.6 88.0 C246.0 58.6 170.4 58.6 170.4 113.2 C170.4 163.6 271.2 155.2 271.2 209.8 C271.2 260.2 187.2 264.4 162.0 239.2" class="a1" fill="none" stroke="#5BE1F0" stroke-width="6" stroke-linecap="round" stroke-dasharray="34 503.9" stroke-dashoffset="52.0"/><path d="M162.0 239.2 C187.2 264.4 271.2 260.2 271.2 209.8 C271.2 155.2 170.4 163.6 170.4 113.2 C170.4 58.6 246.0 58.6 279.6 88.0" class="a2" fill="none" stroke="#FF74C0" stroke-opacity=".28" stroke-width="19.200000000000003" stroke-linecap="round" stroke-dasharray="34 503.9" stroke-dashoffset="52.0"/><path d="M162.0 239.2 C187.2 264.4 271.2 260.2 271.2 209.8 C271.2 155.2 170.4 163.6 170.4 113.2 C170.4 58.6 246.0 58.6 279.6 88.0" class="a2" fill="none" stroke="#FF74C0" stroke-width="6" stroke-linecap="round" stroke-dasharray="34 503.9" stroke-dashoffset="52.0"/><g class="a4"><text x="420" y="104" class="mono" font-size="16" fill="#5BE1F0" textLength="192" lengthAdjust="spacing">HTTP/1.1 201 Created</text><rect x="618" y="90" width="9" height="18" rx="1.5" fill="#5BE1F0" class="a3"/><text x="420" y="128" class="mono" font-size="13" fill="#5D6499">Location: /collaborations/next</text></g><g class="a5"><text x="420" y="190" class="sans b" font-size="40" fill="#ECEBFF">Let's build something</text></g><g class="a6"><text x="420" y="240" class="sans b" font-size="40" fill="url(#tagGrad)">that works — and feels right.</text></g><g class="a7"><text x="420" y="288" class="sans" font-size="17" fill="#8990C0">Sarai Soliman  ·  IT Engineer  ·  from schema to screen</text></g><text x="1170" y="320" class="mono" font-size="11" fill="#5D6499" text-anchor="end">EOF</text></svg>

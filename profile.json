@@ -1,0 +1,81 @@
+{
+  "_comment": "Single source of truth for the text inside the SVG assets. Edit, then run: python tools/build_assets.py. README.md text is edited by hand.",
+
+  "name": "Sarai Soliman",
+  "first_name": "Sarai",
+  "last_name": "Soliman",
+  "handle": "sarai",
+  "title": "IT Engineer · Software Developer",
+  "tagline": "From schema to screen.",
+  "subline": "Turning logic into experiences.",
+
+  "_status_comment": "Allowed statuses: practiced (used hands-on in coursework or projects), learning (actively learning now), studied (covered in theory). PLEASE REVIEW: these are conservative defaults, not verified facts.",
+  "stack": {
+    "frontend": [
+      ["HTML", "practiced"],
+      ["CSS", "practiced"],
+      ["JavaScript", "practiced"],
+      ["Responsive design", "practiced"],
+      ["React", "learning"]
+    ],
+    "backend": [
+      ["Python", "practiced"],
+      ["FastAPI", "learning"],
+      ["REST APIs", "practiced"],
+      ["JWT authentication", "learning"]
+    ],
+    "data": [
+      ["SQL", "practiced"],
+      ["PostgreSQL", "practiced"],
+      ["SQL Server", "practiced"],
+      ["ER diagrams", "practiced"],
+      ["Normalization", "practiced"],
+      ["Alembic migrations", "learning"]
+    ],
+    "fundamentals": [
+      ["C++", "practiced"],
+      ["C#", "practiced"],
+      ["Object-oriented (OOP)", "practiced"],
+      ["Data structures & algorithms", "studied"]
+    ],
+    "erp": [
+      ["Odoo", "learning"],
+      ["Python modules", "learning"],
+      ["ORM concepts", "studied"],
+      ["ERP workflows", "studied"]
+    ],
+    "tools": [
+      ["Git", "practiced"],
+      ["GitHub", "practiced"],
+      ["Linux", "practiced"],
+      ["VS Code", "practiced"],
+      ["Visual Studio", "practiced"],
+      ["npm", "practiced"]
+    ]
+  },
+
+  "principles": [
+    ["c0ffee1", "understand", "Understand the problem before writing code.", "Who uses it, what they need, and what can go wrong."],
+    ["da7aba5", "model", "Design the data before the features.", "Entities, relationships and constraints come first."],
+    ["5ca1ab1", "build", "Write code someone else can read.", "Small functions, clear names, honest comments."],
+    ["7e57ed0", "verify", "Validate assumptions. Handle errors.", "Check inputs, test the edges, fail with clear messages."],
+    ["feedbac", "iterate", "Ship something practical, then improve it.", "Feedback over perfection."]
+  ],
+
+  "learning": [
+    ["frontend_craft", "Frontend craft", "components, accessibility, React fundamentals"],
+    ["reliable_apis", "Reliable backend APIs", "FastAPI, authentication, validation, error handling"],
+    ["data_and_sql", "Database design & SQL", "query design, indexing basics, PostgreSQL"],
+    ["architecture", "Software architecture fundamentals", "layers, boundaries, separation of concerns"],
+    ["odoo_erp", "Odoo & ERP concepts", "custom modules, ORM, business workflows"],
+    ["testing_practice", "Testing & engineering practice", "unit tests, code review, version control habits"]
+  ],
+
+  "_projects_comment": "status: blueprint (no public repository yet; the card is labelled as a placeholder) or live (a real repository exists and README links to it).",
+  "projects": {
+    "student-system": "blueprint",
+    "odoo-module": "blueprint",
+    "fullstack-app": "blueprint",
+    "database-design": "blueprint"
+  }
+}

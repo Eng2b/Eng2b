@@ -1,0 +1,41 @@
+# Redraws assets/activity.svg from the owner's public contribution calendar.
+# Uses only the built-in GITHUB_TOKEN; no secrets to configure.
+name: activity
+
+on:
+  schedule:
+    - cron: "17 4 * * *"   # daily, off the top of the hour
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: activity
+  cancel-in-progress: true
+
+jobs:
+  render:
+    # Only in the real profile repository (<username>/<username>), so the graphic
+    # always shows the repository owner's own activity, never someone else's.
+    if: github.repository == format('{0}/{0}', github.repository_owner)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render activity graphic
+        run: python tools/activity.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LOGIN: ${{ github.repository_owner }}
+
+      - name: Commit if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity.svg
+          git diff --cached --quiet || { git commit -m "chore: refresh activity graphic"; git push; }

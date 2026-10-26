@@ -1,0 +1,104 @@
+<!doctype html>
+<!--
+  Local preview for the profile README. NOT part of what GitHub renders.
+
+    cd Eng2b
+    python -m http.server 8765
+    open http://localhost:8765/preview/
+
+  It renders README.md with marked (GitHub-flavoured Markdown) and GitHub's own
+  markdown stylesheet, inside a column the width of a GitHub profile README.
+  Differences from github.com are listed in the banner below.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profile preview</title>
+<base href="../">
+<link rel="stylesheet" id="mdcss" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.5.1/github-markdown-dark.css">
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<style>
+  :root { --bg: #0d1117; --fg: #e6edf3; --bar: #161b22; --line: #30363d; }
+  :root[data-theme="light"] { --bg: #ffffff; --fg: #1f2328; --bar: #f6f8fa; --line: #d0d7de; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 14px/1.5 -apple-system, "Segoe UI", sans-serif; }
+  .bar { position: sticky; top: 0; z-index: 2; display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+         padding: 10px 16px; background: var(--bar); border-bottom: 1px solid var(--line); }
+  .bar button { font: inherit; padding: 4px 10px; border-radius: 6px; border: 1px solid var(--line);
+                background: transparent; color: inherit; cursor: pointer; }
+  .bar button[aria-pressed="true"] { background: #4F7BFF; border-color: #4F7BFF; color: #fff; }
+  .bar .sep { width: 1px; height: 20px; background: var(--line); margin: 0 4px; }
+  .note { padding: 10px 16px; font-size: 12.5px; opacity: .75; border-bottom: 1px solid var(--line); }
+  .stage { margin: 24px auto; max-width: 896px; padding: 0 16px; }
+  .stage.mobile { max-width: 375px; }
+  .markdown-body { background: transparent; border: 1px solid var(--line); border-radius: 6px; padding: 32px; }
+  .mobile .markdown-body { padding: 16px; }
+  .gallery figure { margin: 0 0 28px; }
+  .gallery img { width: 100%; display: block; }
+  .gallery figcaption { font: 12px ui-monospace, monospace; opacity: .7; margin-top: 6px; }
+  .static img { animation-play-state: paused; }
+</style>
+</head>
+<body>
+<div class="bar" role="toolbar" aria-label="Preview options">
+  <strong>Profile preview</strong><span class="sep"></span>
+  <button data-view="readme" aria-pressed="true">README</button>
+  <button data-view="gallery" aria-pressed="false">Assets</button><span class="sep"></span>
+  <button data-theme="dark" aria-pressed="true">GitHub dark</button>
+  <button data-theme="light" aria-pressed="false">GitHub light</button><span class="sep"></span>
+  <button data-width="desktop" aria-pressed="true">Desktop column</button>
+  <button data-width="mobile" aria-pressed="false">Mobile (375px)</button>
+</div>
+<p class="note">
+  Approximation of github.com. GitHub additionally sanitises HTML (no scripts, styles or event handlers),
+  serves images through its camo proxy, and adds heading anchor links. SVG animations here play exactly as they
+  do inside GitHub's &lt;img&gt; tags; to see the static fallback, enable "reduce motion" in your OS.
+</p>
+<main class="stage" id="stage"><article class="markdown-body" id="out">Loading README.md…</article></main>
+
+<script>
+  const ASSETS = ["hero", "divider", "tech-schema", "round-trip", "project-student-system",
+    "project-odoo-module", "project-fullstack-app", "project-database-design", "mindset",
+    "roadmap", "activity", "signoff"];
+  const out = document.getElementById("out");
+  const stage = document.getElementById("stage");
+  const css = document.getElementById("mdcss");
+  let view = "readme";
+
+  // GitHub-like heading ids so the in-page navigation works.
+  const renderer = new marked.Renderer();
+  renderer.heading = (text, level, raw) => {
+    const id = raw.toLowerCase().trim().replace(/[^\w\- ]+/g, "").replace(/\s/g, "-");
+    return `<h${level} id="${id}">${text}</h${level}>`;
+  };
+
+  async function show() {
+    if (view === "gallery") {
+      out.innerHTML = '<div class="gallery">' + ASSETS.map(n =>
+        `<figure><img src="assets/${n}.svg?${Date.now()}" alt=""><figcaption>assets/${n}.svg</figcaption></figure>`
+      ).join("") + "</div>";
+      return;
+    }
+    const res = await fetch("README.md", { cache: "no-store" });
+    out.innerHTML = marked.parse(await res.text(), { gfm: true, renderer });
+  }
+
+  function press(attr, value) {
+    document.querySelectorAll(`[data-${attr}]`).forEach(b =>
+      b.setAttribute("aria-pressed", String(b.dataset[attr] === value)));
+  }
+  document.querySelector(".bar").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    if (b.dataset.view) { view = b.dataset.view; press("view", view); show(); }
+    if (b.dataset.theme) {
+      document.documentElement.dataset.theme = b.dataset.theme; press("theme", b.dataset.theme);
+      css.href = `https://cdn.jsdelivr.net/npm/github-markdown-css@5.5.1/github-markdown-${b.dataset.theme}.css`;
+    }
+    if (b.dataset.width) { stage.classList.toggle("mobile", b.dataset.width === "mobile"); press("width", b.dataset.width); }
+  });
+  if (location.hash === "#assets") { view = "gallery"; press("view", view); }
+  show();
+</script>
+</body>
+</html>
